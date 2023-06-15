@@ -1373,7 +1373,7 @@ div.controls {
 }
 
 #main-wrap #image-slider {
-    background-image: url("../img/about.jpg");
+    background-image: url("../../img/about.jpg");
     filter: blur(5px);
 
     height: 100VH; 
@@ -1390,7 +1390,7 @@ div.controls {
     font-weight: bold;
     border: 3px solid #f1f1f1;
     position: absolute;
-    top: 50%;
+    top: 55%;
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 2;
