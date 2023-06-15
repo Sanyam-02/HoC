@@ -1509,22 +1509,24 @@ div.controls {
 }
 
 #main-wrap #bottom-wrap #services .col-md-4 .service .title h3 {
-  font-size: 12px;
-  line-height: 20px;
+  font-size: 30px;
+  line-height: 25px;
   text-transform: uppercase;
   padding-right: 50px;
   margin-bottom: 35px;
+  font-weight: 550;
 }
 
 #main-wrap #bottom-wrap #services .col-md-4 .service .title h3 i {
   position: absolute;
   right: 0;
   top: -5px;
-  font-size: 30px;
+  font-size: 40px;
 }
 
-#main-wrap #bottom-wrap #services .col-md-4 .service .title p {
-  text-align: justify;
+#main-wrap #bottom-wrap #services .col-md-4 .service .description li {
+    font-size: 20px;
+    color: #222;
 }
 
 #main-wrap #bottom-wrap #services .col-md-4:nth-of-type(3n+1) .service {
@@ -2217,18 +2219,20 @@ div.controls {
 }
 
 #main-wrap #bottom-wrap #testimonials {
-  min-height: 400px;
+  /* min-height: 100px ; */
+
+  height: fit-content;
   position: relative;
   width: 100%;
   margin: 0;
-  padding: 0;
+  /* padding: 0; */
   overflow: hidden;
   z-index: 1;
   padding: 70px 0;
 }
 
 #main-wrap #bottom-wrap #testimonials .container {
-  position: relative;
+  /* position: relative; */
   z-index: 2;
 }
 
@@ -2238,10 +2242,10 @@ div.controls {
 
 #main-wrap #bottom-wrap #testimonials .container .testimonials-carousel h2 {
   font-family: "Roboto", sans-serif;
-  font-size: 15px;
+  font-size: 24px;
   line-height: 30px;
   text-transform: uppercase;
-  font-weight: 100;
+  font-weight: 300;
   margin-bottom: 25px;
 }
 
