@@ -255,6 +255,7 @@ a img:focus {
 }
 
 a.btn {
+  background-color: #f54337;
   padding: 0;
   padding-right: 30px;
   padding-left: 30px;
